@@ -156,13 +156,106 @@
 
 # print(remove_duplicate([1,2,2,3,3,4,4,5,5]))
 
-def remove_duplicate(lst):
-    unique = []
+# def remove_duplicate(lst):
+#     unique = []
 
-    for item in lst:
-        if item not in unique:
-            unique.append(item)
+#     for item in lst:
+#         if item not in unique:
+#             unique.append(item)
 
-    return unique
+#     return unique
     
-print(remove_duplicate([1,1,2,2,3,3,6,6,7,7]))
+# print(remove_duplicate([1,1,2,2,3,3,6,6,7,7]))
+
+# numbers = [1, 2, 3]
+# reversed_list = []
+
+# for num in numbers:
+#     reversed_list = [num] + reversed_list
+
+# print(reversed_list)
+
+
+# Remove duplicate from the variable list
+# numbers = [1,1,2,2,3,3,4,4,5,5]
+# unique = []
+
+# for num in numbers:
+#     if num not in unique:
+#         unique.append(num)
+
+# print(unique)
+
+# Sum all elements from the variable list
+
+# numbers = [4,6,7]
+# total = 0
+
+# for num in numbers:
+#     total += num
+
+# print("Sum of all numbers is: ", total)
+
+# Print all keys in the dictionary
+
+# student = {"name": "Ali", "age": 25, "city": "Lahore"}
+
+# for key in student:
+
+#     print(key)
+
+# Print all values in the dictionary
+
+# student = {"name": "Ali", "age": 25, "city": "Lahore"}
+
+# for value in student.values():
+#     print(value)
+
+# count how many times each word appear
+# sentence = "python is easy and python is powerful"
+# words = sentence.split()
+
+# word_count = {}
+
+# for word in words:
+#     if word in word_count:
+#         word_count[word] += 1
+
+#     else:
+#         word_count[word] = 1
+
+# print(word_count)
+
+# merge two dictionaries
+# a = {"x": 1}
+# b = {"y": 2}
+
+# a.update(b)
+
+# print(a)
+
+# Find key with maximum value
+
+# marks = {"math": 80, "eng": 75, "sci": 90}
+
+# max_key = None
+# max_value = float('-inf')
+
+# for key, value in marks.items():
+#     if value > max_value:
+#         max_value = value
+#         max_key = key
+
+# print(max_key, max_value)
+
+# Convert two lists into dictionary
+
+keys = ["name", "age", "address", "office"]
+values = ["Kamran", 25, "Bahawalpur", "Enigmatix"]
+
+new_dict = {}
+
+for i in range(len(keys)):
+    new_dict[keys[i]] = values[i]
+
+print(new_dict)
